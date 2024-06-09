@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros</title>
+    <link rel="icon" href="./../assets/images/logos/logo.png">
+    <link rel="stylesheet" href="./../css/common.css">
+    <link rel="stylesheet" href="./../css/nosotros.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="{% static 'fontawesomefree/css/fontawesome.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'fontawesomefree/css/brands.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'fontawesomefree/css/solid.css' %}" rel="stylesheet" type="text/css">
+</head>
+
+<!-- BODY -->
+<body>
+<!-- HEADER -->
+<header class="header">
+    <div class="header__container">
+        <!-- Header Titles -->
+        <a href="./../index.html" class="header__logo">
+            <img src="./../assets/images/logos/logo_text2.png" alt="" class="logo__ilco logo__img">
+            <img src="./../assets/images/logos/ss_24.png" alt="" class="logo__ss logo__img">
+        </a>
+
+        <!-- Header nav -->
+        <nav class="header__nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="./../index.html">Home</a></li>
+                <li class=" nav__item"><a href="./../pages/productos/productos_1.html">Productos</a></li>
+                <li class="nav__item nav__item__exception"><a href="./../pages/nosotros.html">Sobre nosotros</a></li>
+                <li class="nav__item"><a href="./../pages/member.html">Hazte socio</a></li>
+            </ul>
+        </nav>
+
+        <!-- Header change coin -->
+        <select class="header__coin">
+            <option value="euro">EUR € | España</option>
+            <option value="dolar"> USD $ | EE.UU.</option>
+            <option value="euro"> GBP $ | U.K.</option>
+        </select>
+    </div>
+</header>
+
+
+    <!-- MAIN -->
+    <main class="main">
+        <div class="container">
+
+            <!-- ASIDE -->
+            <aside class="aside">
+                <a href="#introduccion">Introducción</a>
+                <a href="#sostenible">Moda sostenible</a>
+                <a href="#reworked">Reworked</a>
+                <a href="#consejos">Algunos consejos</a>
+                <a href="#ubicacion">Ubicación</a>
+                <a href="#footer">Contacto</a>
+            </aside>
+
+
+            <!-- Principal -->
+            <section class="section">
+                <!-- HUECO IS AN EMPTY DIV WITH IDNAME USED TO LINK THE ASIDE -->
+                <div class="hueco" id="introduccion"></div>
+
+                <!-- EACH ARTICLE IS A GROUP OF TEXT AND ONE VIDEO -->
+                <!-- INTRODUCTION -->
+                <article class="article">
+                    <div class="article__text">
+                        <h2 class="article__title title1">Introducción</h2>
+                        <p>Ilcollective es una marca que nace como contraposición al negocio de la predominante
+                            industria textil actual, rechazando la producción masiva de prendas, tan perjudicial para
+                            nuestra
+                            salud y la del planeta.</p>
+                        <br>
+                        <p>Nuestra misión es crear conciencia acerca de las graves consecuencias que supone este modo de
+                            sobreproducción y consumo, y con ello, promover una alternativa más sostenible.</p>
+                        <br>
+                        <p>¿Sabías que la producción de una sola camiseta de algodón utiliza aprox. 2000L de agua? Con
+                            eso podría beber agua una persona durante dos años y medio.</p>
+                    </div>
+                    <video src="./../assets/videos/8 ENVIO INFORMACION.mp4" muted autoplay controls></video>
+                </article>
+
+                <div class="hueco" id="sostenible"></div>
+
+                <!-- sUSTAINABLE FASHION -->
+                <article class="article">
+                    <video src="./../assets/videos/10 CARRITO.mp4" muted autoplay controls></video>
+                    <div class="article__text">
+                        <h2 class="article__title title2">Moda sostenible</h2>
+                        <p>Nuestro trabajo se centra principalmente en la reutilización y reacondicionamiento de prendas
+                            que, aunque ya han cumplido su vida útil asignada, a nivel material pueden reintegrarse en
+                            el ciclo de vida de otro producto, entrando así de nuevo en el sistema de producción, sin
+                            necesidad de que acabe en un vertedero.</p>
+                        <br>
+                        <p>Así pues, comprar ropa de segunda mano o reacondicionada, es un buen modo de ayudar al
+                            medioambiente en diferentes sentidos.</p>
+                    </div>
+                </article>
+                <div class="hueco" id="reworked"></div>
+
+                <!-- REWORKED -->
+                <article class="article">
+                    <div class="article__text">
+                        <h2 class="article__title title3">Reworked</h2>
+                        <p>Llamamos Reworked a aquellos productos que han sido re acondicionados a partir de una prenda
+                            vintage para dar lugar a nuestros propios diseños. Por ejemplo, tal vez hemos utilizado el
+                            material de un polo de Nike para hacer un croptop Reworked. Es por ello que los diseños son
+                            únicos y de calidad, pues utilizamos el material original de la prenda.</p>
+                        <br>
+                        <p>Cuando señalamos que un producto es Reworked nos referimos a aquellos productos que han sido
+                            reacondicionados. Todos los productos Reworked han sido tratados personalmente por nosotras,
+                            por lo que son únicos en cuanto a su diseño. ¡Nadie llevará uno igual!</p>
+                    </div>
+                    <video src="./../assets/videos/3 BOLSOS.mp4" muted autoplay controls></video>
+                </article>
+                <div class="hueco" id="consejos"></div>
+
+                <!-- SOME ADVICES -->
+                <article class="article__advices">
+                    <h2 class="article__title">Algunos consejos</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dS3tvvx4LIg?si=7QMTPqNzkUWFpLlc"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </article>
+                <div class="hueco" id="ubicacion"></div>
+
+                <!-- LOCATION -->
+                <article class="article__location">
+                    <h2 class="article__title">Ubicación</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5801.315968569216!2d-8.4088870047454!3d43.363264234468915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2e7c87efa15f5b%3A0xbe8e4043271a6684!2zRW5zYW5jaGUsIEEgQ29ydcOxYSwgTGEgQ29ydcOxYQ!5e0!3m2!1ses!2ses!4v1705834062432!5m2!1ses!2ses"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+                </article>
+            </section>
+        </div>
+    </main>
+    
+     <!-- FOOTER -->
+     <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__column">
+                <p class="footer__title">
+                    ILCOLLECTIVE
+                </p>
+                <div class="footer__rrss">
+                    <a href="https://www.facebook.com/groups/1235348139812652/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://images.app.goo.gl/WodE6EtBVLYgSSh8A"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://images.app.goo.gl/WodE6EtBVLYgSSh8A"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/ilco.llective/?hl=es"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer__column">
+                <ul class="footer__list">
+                    <li class="footer__item">Tienda</li>
+                    <li class="footer__item"><a href="./../index.html">Home</a></li>
+                    <li class="footer__item"><a href="./../pages/productos/productos_1.html">Productos</a></li>
+                    <li class="footer__item"><a href="./../pages/nosotros.html">Nosotras</a></li>
+                    <li class="footer__item"><a href="./../pages/member.html">Subscribete</a></li>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <ul class="footer__list">
+                    <li class="footer__item">Contacto</li>
+                    <li class="footer__item">Dir: Av/street, 456, London</li>
+                    <li class="footer__item">Tel: +34-6542548547</li>
+                    <li class="footer__item"> 9:00 AM - 14:00 PM</li>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <ul class="footer__list">
+                    <li class="footer__item">Reworked</li>
+                    <li class="footer__item">Moda sostenible</li>
+                    <li class="footer__item">Salva el planeta</li>
+                    <li class="footer__item">Colaboraciones</li>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <p>Para cualquier duda, no dude en preguntarnos en este correo:</p>
+                <a href="mailto:garciaf.chema@gmail.com">garciaf.chema@gmail.com</a>
+            </div>
+            <div class="footer__column">
+                <p>Todos los derechos reservado. Web creada por @chemagarciaf</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

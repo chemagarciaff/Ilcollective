@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="icon" href="./../../assets/images/logos/logo.png">
+    <link rel="stylesheet" href="./../../css/common.css">
+    <link rel="stylesheet" href="./../../css/productos.css">
+    <link rel="stylesheet" href="./../../css/productos_1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header__container">
+            <!-- Header Titles -->
+            <a href="./../../index.html" class="header__logo">
+                <img src="./../../assets/images/logos/logo_text2.png" alt="" class="logo__ilco logo__img">
+                <img src="./../../assets/images/logos/ss_24.png" alt="" class="logo__ss logo__img">
+            </a>
+
+            <!-- Header nav -->
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="./../../index.html">Home</a></li>
+                    <li class=" nav__item nav__item__exception"><a href="./../../pages/productos/productos_1.html">Productos</a></li>
+                    <li class="nav__item"><a href="./../../pages/nosotros.html">Sobre nosotros</a></li>
+                    <li class="nav__item"><a href="./../../pages/member.html">Hazte socio</a></li>
+                </ul>
+            </nav>
+
+            <!-- Header change coin -->
+            <select class="header__coin">
+                <option value="euro">EUR € | España</option>
+                <option value="dolar"> USD $ | EE.UU.</option>
+                <option value="euro"> GBP $ | U.K.</option>
+            </select>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+
+        
+        <!-- HEADER PRODUCTS PAGE -->
+        <section class="section section_0">
+            
+            <!-- ARROW -->
+            <a href="#section_1">
+                <div>&#8675;</div>
+            </a>
+            
+            <!-- PRINCIPAL IMG -->
+            <img src="./../../assets/images/logos/ss_24_solo.png" alt="">
+        </section>
+        
+        <div class="container">
+
+            <!-- SECTION WITH FILTERS AND ALL THE PRODUCTS -->
+            <!-- yOU CAN LINK IN THE THREE FIRST ELEMENTS -->
+            <section class="section_1" id="section_1">
+
+                <h1 class="h1">
+                    Todos los productos
+                </h1>
+
+
+                <!-- PRODUCT FILTER -->
+                <!-- IT DOESN'T MAKE ANYTHING, JUST FOR DECORATION -->
+                <div class="srch">
+                    <div class="srch__filter">
+                        <p class="filter__text">Filtrar:</p>
+                        <select name="ordenar" id="ordenar" class="filter__select">
+                            <option value="" disabled selected>Ordenar por</option>
+                            <option value="Recomendados">Recomendados</option>
+                            <option value="No disponible">Más recientes</option>
+                            <option value="No disponible">Más antiguo</option>
+                            <option value="No disponible">Menos precio</option>
+                            <option value="No disponible">Más precio</option>
+                        </select>
+                        <select name="disponibilidad" id="disponibilidad" class="filter__select">
+                            <option value="" disabled selected>Disponibilidad</option>
+                            <option value="Disponible">Disponible</option>
+                            <option value="No disponible">No disponible</option>
+                        </select>
+                        <select name="estampado" id="estampado" class="filter__select">
+                            <option value="" disabled selected>Estampado</option>
+                            <option value="Disponible">Bloques de color</option>
+                            <option value="No disponible">Serpiente</option>
+                            <option value="No disponible">Cebra</option>
+                            <option value="No disponible">Lunares</option>
+                        </select>
+                    </div>
+                    <div class="srch__price">
+                        <p for="Price">Precio:</p>
+                        <label for="min_price">Min</label>
+                        <input type="text" placeholder="0">
+                        <label for="max_price">Max</label>
+                        <input type="text" placeholder="80">
+
+                    </div>
+                    <div class="srch__position">
+                        <p class="position__text">Vista:</p>
+                        <a href="#"><i class="fa-regular fa-square view"></i></a>
+                        <a href="./productos_2.html#section_1"><i class="view fa-solid fa-border-all"></i></a>
+                    </div>
+                </div>
+
+
+                <!-- PRODUCTS -->
+                <div class="cards">
+
+                    <!-- PRODUCT -->
+                    <a href="./producto_1.html" class="card">
+                        <img src="./../../assets/images/principal_producto/top_corset.jpg" alt="" class="img">
+                        <div class="text_card">Top corset<br>45€</div>
+                    </a>
+                    <a href="./producto_2.html" class="card">
+                        <img src="./../../assets/images/principal_producto/top_moda_soste.jpg" alt="" class="img">
+                        <div class="text_card">Top ajustable<br>45€</div>
+                    </a>
+                    <a href="./producto_3.html" class="card">
+                        <img src="./../../assets/images/principal_producto/top_pelo.jpg" alt="" class="img">
+                        <div class="text_card">Top pelo<br>45€</div>
+                    </a>
+                    <a href="#" class="card">
+                        <img src="./../../assets/images/principal_producto/top_reworked.jpg" alt="" class="img">
+                        <div class="text_card">Top corset<br>45€</div>
+                    </a>
+                    <a href="#" class="card">
+                        <img src="./../../assets/images/principal_producto/rebeca_encaje.jpg" alt="" class="img">
+                        <div class="text_card">Top corset<br>45€</div>
+                    </a>
+                    <a href="#" class="card">
+                        <img src="./../../assets/images/principal_producto/chaleco_sostenible.jpg" alt="" class="img">
+                        <div class="text_card">Top corset<br>45€</div>
+                    </a>
+                    <a href="#" class="card">
+                        <img src="./../../assets/images/principal_producto/conjunto_flores.jpg" alt="" class="img">
+                        <div class="text_card">Top corset<br>45€</div>
+                    </a>
+                    <a href="#" class="card">
+                        <img src="./../../assets/images/principal_producto/conjunto_reworked.jpg" alt="" class="img">
+                        <div class="text_card">Top corset<br>45€</div>
+                    </a>
+                    <a href="#" class="card">
+                        <img src="./../../assets/images/principal_producto/conjunto_sostenible.jpg" alt="" class="img">
+                        <div class="text_card">Top corset<br>45€</div>
+                    </a>
+                    <a href="#" class="card">
+                        <img src="./../../assets/images/principal_producto/pantalon_sostenible.jpg" alt="" class="img">
+                        <div class="text_card">Top corset<br>45€</div>
+                    </a>
+                    <a href="#" class="card">
+                        <img src="./../../assets/images/principal_producto/falda_sostenible.jpg" alt="" class="img">
+                        <div class="text_card">Top corset<br>45€</div>
+                    </a>
+                    <a href="#" class="card">
+                        <img src="./../../assets/images/principal_producto/accesorio_bolso.jpg" alt="" class="img">
+                        <div class="text_card">Top corset<br>45€</div>
+                    </a>
+                    <a href="#" class="card">
+                        <img src="./../../assets/images/principal_producto/accesorio_cinturon.jpg" alt="" class="img">
+                        <div class="text_card">Top corset<br>45€</div>
+                    </a>
+                    <a href="#" class="card">
+                        <img src="./../../assets/images/principal_producto/accesorio_gafas.jpg" alt="" class="img">
+                        <div class="text_card">Top corset<br>45€</div>
+                    </a>
+                    <a href="#" class="card">
+                        <img src="./../../assets/images/principal_producto/accesorio_gorro.jpg" alt="" class="img">
+                        <div class="text_card">Top corset<br>45€</div>
+                    </a>
+                    <a href="#" class="card">
+                        <img src="./../../assets/images/principal_producto/accesorio_pulsera.jpg" alt="" class="img">
+                        <div class="text_card">Top corset<br>45€</div>
+                    </a>
+                    <a href="#" class="card">
+                        <img src="./../../assets/images/principal_producto/accesorio_pulsera_1.jpg" alt="" class="img">
+                        <div class="text_card">Top corset<br>45€</div>
+                    </a>
+                    <a href="#" class="card">
+                        <img src="./../../assets/images/principal_producto/zapatos.jpg" alt="" class="img">
+                        <div class="text_card">Top corset<br>45€</div>
+                    </a>
+                </div>
+            </section>
+
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__column">
+                <p class="footer__title">
+                    ILCOLLECTIVE
+                </p>
+                <div class="footer__rrss">
+                    <a href="https://www.facebook.com/groups/1235348139812652/"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://images.app.goo.gl/WodE6EtBVLYgSSh8A"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://images.app.goo.gl/WodE6EtBVLYgSSh8A"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/ilco.llective/?hl=es"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer__column">
+                <ul class="footer__list">
+                    <li class="footer__item">Tienda</li>
+                    <li class="footer__item"><a href="./../../index.html">Home</a></li>
+                    <li class="footer__item"><a href="./../../pages/productos/productos_1.html">Productos</a></li>
+                    <li class="footer__item"><a href="./../../pages/nosotros.html">Nosotras</a></li>
+                    <li class="footer__item"><a href="./../../pages/member.html">Subscribete</a></li>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <ul class="footer__list">
+                    <li class="footer__item">Contacto</li>
+                    <li class="footer__item">Dir: Av/street, 456, London</li>
+                    <li class="footer__item">Tel: +34-6542548547</li>
+                    <li class="footer__item"> 9:00 AM - 14:00 PM</li>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <ul class="footer__list">
+                    <li class="footer__item">Reworked</li>
+                    <li class="footer__item">Moda sostenible</li>
+                    <li class="footer__item">Salva el planeta</li>
+                    <li class="footer__item">Colaboraciones</li>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <p>Para cualquier duda, no dude en preguntarnos en este correo:</p>
+                <a href="mailto:garciaf.chema@gmail.com">garciaf.chema@gmail.com</a>
+            </div>
+            <div class="footer__column">
+                <p>Todos los derechos reservado. Web creada por @chemagarciaf</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

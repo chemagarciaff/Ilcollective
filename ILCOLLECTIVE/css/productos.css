@@ -1,0 +1,200 @@
+main {
+    font-family: var(--typo-sm);
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+
+.section_0 {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    background-color: #8394A8;
+    background-image: url(./../assets/images/cabezera_producto.jpg);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-bottom: 130px;
+}
+
+.section_0>img {
+    width: 100%;
+    position: relative;
+    bottom: -90px;
+}
+
+.section_0 a>div {
+    position: absolute;
+    bottom: -60px;
+    left: 47%;
+    z-index: 5;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #e7e7e7;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 60px;
+    text-align: center;
+    font-weight: 100;
+    opacity: 0.8;
+    padding-top: 25px;
+    transition-duration: 0.4s;
+    color: black;
+}
+
+.section_0 a div:visited {
+    color: black;
+}
+
+.section_0 a div:hover {
+    scale: 1.05;
+    opacity: 1;
+    background-color: #8394a8;
+}
+
+.section_1 {
+    position: relative;
+    width: 100%;
+}
+
+.vacio {
+    height: 110px;
+}
+
+.section_1 h1 {
+    font-family: rajdhani;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+.srch {
+    width: 65%;
+    margin: 20px auto;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 9px;
+    border: 1px solid black;
+    padding-top: 20px;
+    /* background-color: #d7aaa08c; */
+    background: rgba(209, 153, 141, 0.6);
+    background: -moz-linear-gradient(left, rgba(209, 153, 141, 0.6) 0%, rgba(227, 203, 198, 0.74) 51%, rgba(209, 153, 141, 0.6) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(209, 153, 141, 0.6)), color-stop(51%, rgba(227, 203, 198, 0.74)), color-stop(100%, rgba(209, 153, 141, 0.6)));
+    background: -webkit-linear-gradient(left, rgba(209, 153, 141, 0.6) 0%, rgba(227, 203, 198, 0.74) 51%, rgba(209, 153, 141, 0.6) 100%);
+    background: -o-linear-gradient(left, rgba(209, 153, 141, 0.6) 0%, rgba(227, 203, 198, 0.74) 51%, rgba(209, 153, 141, 0.6) 100%);
+    background: -ms-linear-gradient(left, rgba(209, 153, 141, 0.6) 0%, rgba(227, 203, 198, 0.74) 51%, rgba(209, 153, 141, 0.6) 100%);
+    background: linear-gradient(to right, rgba(209, 153, 141, 0.6) 0%, rgba(227, 203, 198, 0.74) 51%, rgba(209, 153, 141, 0.6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d1998d', endColorstr='#d1998d', GradientType=1);
+}
+
+.srch__filter {
+    flex: 0 1 650px;
+    max-width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.srch__price {
+    flex: 0 1 400px;
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+
+.srch__position {
+    flex: 0 1 200px;
+    max-width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+
+.filter__select {
+    width: 150px;
+    height: 32px;
+    font-size: 17px;
+    font-family: var(--typo-sm);
+    letter-spacing: 2px;
+    background-color: #00000000;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    transition-duration: 0.3s;
+}
+
+.filter__select:focus {
+    box-shadow: 0 0 5px black;
+}
+.filter__select:hover {
+    scale: 1.1;
+}
+
+
+.srch__price label {
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+}
+
+.srch__price input {
+    width: 40px;
+    background-color: #00000000;
+    outline: none;
+    border: 1px solid black;
+    height: 32px;
+    transition-duration: 0.3s;
+}
+
+.srch__price input:focus {
+    box-shadow: 0 0 5px black;
+}
+.srch__price input:hover {
+    scale: 1.1;
+}
+
+
+.view {
+    color: rgb(71, 71, 71);
+}
+
+.view:visited {
+    color: var(--color-azul-principal);
+}
+
+.view:hover {
+
+    color: black;
+}
+
+.cards {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.card {
+    font-family: fauna;
+    position: relative;
+    margin: 0 auto;
+    transition-duration: 0.4s;
+    color: black;
+}
+
+.text_card:hover {
+    opacity: 0.8;
+}

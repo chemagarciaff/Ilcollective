@@ -1,0 +1,44 @@
+
+.card{
+    flex: 1 1 185px;
+    max-width: 185px;
+    height: 230px;
+    margin: 15px;
+    font-size: 20px;
+    -webkit-box-shadow: 0px 0px 27px -3px rgba(113,134,101,1);
+-moz-box-shadow: 0px 0px 27px -3px rgba(113,134,101,1);
+box-shadow: 0px 0px 27px -3px rgba(113,134,101,1);
+
+    /* border: 1px solid firebrick; */
+}
+
+.card:visited{
+    color: black;
+}
+
+.card:hover{
+    scale: 1.1;
+    box-shadow: none;
+}
+
+.img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 185px;
+    height: 230px;
+    transition-duration: 0.4s;
+}
+
+.text_card{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 185px;
+    height: 230px;
+    opacity: 0;
+    text-align: center;
+    background-color: #e7e7e7;
+    transition-duration: 0.4s;
+    padding-top: 100px;
+}
